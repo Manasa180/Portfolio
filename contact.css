@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding:0;
+}
+body{
+    font-family: "Young Serif", serif;   
+}
+.container{
+    padding:50px;
+    }
+    .head{
+        background-color: black;
+        color:white;
+
+        padding:20px
+        
+    }
+    .head h1{
+        font-size: 60px;
+    }
+    .head__a{
+        background-color:orangered;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        text-decoration: none;
+        display: inline-block;
+    }
+    .head__content{
+        font-size: 30px;
+    }
+    .social{
+        background-color: black;
+        color:white;
+        padding:20px
+    }
+.social a{
+    color:skyblue;
+}
+.form{
+    margin-top: 20px;
+}
+.form__input,.form__textarea,.form_submit{
+margin-top: 10px;
+
+}
+.form__input{
+    border: none;
+    padding:10px;
+    border-bottom: black solid 1px;
+}
+.form__textarea{
+   border: none;
+   border:black solid 1px;
+   padding:10px
+}
+.form__submit{
+    background-color: orangered;
+    padding-left: 10px;
+    padding-right:10px;
+    padding-top: 5px;
+    padding-bottom:5px;
+
+}
+.social{
+    margin-top: 20px;
+}

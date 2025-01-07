@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Young Serif", serif;   
+}
+.container{
+padding:50px;
+}
+
+    
+
+.entry__title{
+    font-size: 60px;
+    
+}
+.entry__a{
+    background-color: orangered;
+    color: white;
+    display: inline-block;
+    margin-top: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right:10px
+
+
+}
+.entry{
+    background-color: black;
+    color:white;
+    padding:20px;
+}
+.entry_decription{
+    font-size: 30px;;
+}
+.about,.interest,.project,.social{
+    padding: 20px;
+}
+.about__head,.interest_head,.project_head{
+padding-bottom:10px;
+}
+.social{
+background-color: black;
+color: white;
+margin-top: 20px;
+}
+.social__p a{
+    color: skyblue;
+}
+.interest{
+    background-color: #6462FD;
+    color: black;
+    padding:20px;
+    height: 200px;
+    display:inline-block;
+    border-radius: 10px;
+    vertical-align:top;
+}
+.interest ul{
+    list-style-type: none;
+}
+.un{
+    list-style-type: none;
+}
+.project{
+    background-color:#FE7517;
+    color:black;
+    border-radius:10px;
+    display:inline-block;
+    height:200px;
+    vertical-align: top;
+
+
+}
